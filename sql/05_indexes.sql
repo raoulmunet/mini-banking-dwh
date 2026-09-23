@@ -1,0 +1,9 @@
+create index ix_batch_status on batch_run(status,started_at);
+create index ix_job_batch on job_run(batch_id,status);
+create index ix_dq_violation_exec on dq_violation(execution_id,rule_id);
+create index ix_recon_result_run on recon_result(recon_run_id,result_status);
+create index ix_dim_customer_bk on dim_customer(customer_id,is_current);
+create index ix_dim_account_customer on dim_account(customer_id);
+create index ix_fact_tx_customer on fact_transaction(customer_sk,date_sk);
+create index ix_fact_tx_account on fact_transaction(account_sk,date_sk);
+create index ix_fact_balance_date on fact_account_balance(date_sk,account_sk);
