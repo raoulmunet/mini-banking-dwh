@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+<rect width="1500" height="760" rx="18" fill="#121418"/>
+<rect width="1500" height="58" rx="18" fill="#26292e"/>
+<circle cx="34" cy="29" r="9" fill="#ff5f56"/><circle cx="68" cy="29" r="9" fill="#ffbd2e"/><circle cx="102" cy="29" r="9" fill="#27c93f"/>
+<g font-family="monospace" fill="#f1f1f1">
+<text x="44" y="110" font-size="30" font-weight="700">Mini Banking DWH — Expected Demo</text>
+<text x="44" y="175" font-size="22">BATCH: MINI_BANKING_DWH_FULL_LOAD    STATUS: PARTIAL</text>
+<text x="44" y="225" font-size="22">Customers loaded:       3</text>
+<text x="44" y="265" font-size="22">Accounts loaded:        3</text>
+<text x="44" y="305" font-size="22">Transactions loaded:    4</text>
+<text x="44" y="345" font-size="22">Rejected transactions:  1</text>
+<text x="44" y="395" font-size="22">DQ CUSTOMER:      violations=1</text>
+<text x="44" y="435" font-size="22">DQ ACCOUNT:       violations=1</text>
+<text x="44" y="475" font-size="22">DQ TRANSACTION:   violations=1</text>
+<text x="44" y="535" font-size="22">RECON MATCHED:           4</text>
+<text x="44" y="575" font-size="22">RECON MISMATCH:          0</text>
+<text x="44" y="650" font-size="20" fill="#a8b0bb">Expected output from the included demonstration dataset.</text>
+</g>
+</svg>
