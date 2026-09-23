@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+<rect width="1500" height="760" fill="#f5f7fa"/>
+<text x="55" y="65" font-family="Arial" font-size="38" font-weight="700" fill="#20242a">Mini Banking DWH — Architecture</text>
+<g font-family="Arial" font-size="22" fill="#20242a">
+<rect x="70" y="140" width="220" height="90" rx="16" fill="#fff" stroke="#c9ced6"/><text x="112" y="193">Operational Sources</text>
+<rect x="360" y="140" width="190" height="90" rx="16" fill="#fff" stroke="#c9ced6"/><text x="414" y="193">Staging</text>
+<rect x="620" y="140" width="210" height="90" rx="16" fill="#fff" stroke="#c9ced6"/><text x="655" y="193">Data Quality</text>
+<rect x="900" y="140" width="210" height="90" rx="16" fill="#fff" stroke="#c9ced6"/><text x="943" y="193">ETL Batch</text>
+<rect x="1180" y="140" width="230" height="90" rx="16" fill="#fff" stroke="#c9ced6"/><text x="1230" y="193">Dimensional DWH</text>
+<rect x="865" y="355" width="230" height="90" rx="16" fill="#fff" stroke="#c9ced6"/><text x="915" y="408">Reconciliation</text>
+<rect x="1160" y="355" width="250" height="90" rx="16" fill="#fff" stroke="#c9ced6"/><text x="1199" y="408">Lineage / Impact</text>
+<rect x="1010" y="570" width="260" height="90" rx="16" fill="#fff" stroke="#c9ced6"/><text x="1064" y="623">APEX / Reporting</text>
+</g>
+<g stroke="#666f7a" stroke-width="3" fill="none">
+<path d="M290 185 L360 185"/><path d="M550 185 L620 185"/><path d="M830 185 L900 185"/><path d="M1110 185 L1180 185"/>
+<path d="M1295 230 L980 355"/><path d="M1295 230 L1285 355"/><path d="M980 445 L1110 570"/><path d="M1285 445 L1170 570"/>
+</g>
+</svg>
