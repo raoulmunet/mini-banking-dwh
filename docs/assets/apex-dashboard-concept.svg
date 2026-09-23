@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900">
+<rect width="1500" height="900" fill="#f5f7fa"/>
+<rect width="1500" height="82" fill="#fff"/>
+<text x="40" y="52" font-family="Arial" font-size="38" font-weight="700" fill="#20242a">Mini Banking DWH Monitor</text>
+<text x="1180" y="50" font-family="Arial" font-size="22" fill="#62676e">APEX UI CONCEPT</text>
+<g font-family="Arial">
+<g><rect x="45" y="120" width="320" height="140" rx="16" fill="#fff" stroke="#dadee4"/><text x="70" y="160" font-size="20" fill="#6a7078">Customers</text><text x="70" y="215" font-size="34" font-weight="700">3</text></g>
+<g><rect x="395" y="120" width="320" height="140" rx="16" fill="#fff" stroke="#dadee4"/><text x="420" y="160" font-size="20" fill="#6a7078">Accounts</text><text x="420" y="215" font-size="34" font-weight="700">3</text></g>
+<g><rect x="745" y="120" width="320" height="140" rx="16" fill="#fff" stroke="#dadee4"/><text x="770" y="160" font-size="20" fill="#6a7078">Transactions</text><text x="770" y="215" font-size="34" font-weight="700">4</text></g>
+<g><rect x="1095" y="120" width="320" height="140" rx="16" fill="#fff" stroke="#dadee4"/><text x="1120" y="160" font-size="20" fill="#6a7078">Latest Batch</text><text x="1120" y="215" font-size="34" font-weight="700">PARTIAL</text></g>
+<rect x="45" y="305" width="660" height="500" rx="16" fill="#fff" stroke="#dadee4"/>
+<text x="75" y="355" font-size="28" font-weight="700">Data Quality</text>
+<text x="90" y="425" font-size="22">CUSTOMER      1 violation</text>
+<text x="90" y="485" font-size="22">ACCOUNT       1 violation</text>
+<text x="90" y="545" font-size="22">TRANSACTION   1 violation</text>
+<rect x="745" y="305" width="670" height="500" rx="16" fill="#fff" stroke="#dadee4"/>
+<text x="775" y="355" font-size="28" font-weight="700">Reconciliation</text>
+<text x="790" y="425" font-size="22">MATCHED             4</text>
+<text x="790" y="485" font-size="22">MISSING_DWH         0</text>
+<text x="790" y="545" font-size="22">AMOUNT_MISMATCH     0</text>
+</g>
+</svg>
